@@ -27,7 +27,6 @@ body {
     border-radius:0;
     display: block;
     margin: auto;
-    align-content: center;
     padding: 20px;
     width: 100vw;
 <<<<<<< HEAD
@@ -70,12 +69,14 @@ body {
     color:#00242C;
     font-family: "poppins", sans-serif;
     padding: 10px;
+    font-size: 3vh;
     overflow: hidden;
 }
 
 #intro {
     color:#00242C;
     padding: 10px 20vw 1px 20vw;
+    font-size: 2vh;
     text-align: center;
     font-family: "Poppins", sans-serif;
     
