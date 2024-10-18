@@ -1,0 +1,148 @@
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #f9f8f0;
+}
+
+nav {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    word-spacing: 3px;
+    color: #f9f8f0;
+    background-color: #222222;
+}
+
+body {
+    background-color: #222222;
+}
+
+.img1 {
+    border-radius:0;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 35vw;
+    
+    object-fit:contain;
+    object-position: 50% 40%;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+.about {
+    background-color: #9a94ff;
+    border-radius:20px 20px 0 0;
+    width: 100vw;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    
+    
+}
+
+#letme {
+    color:#00242C;
+    font-family: "poppins", sans-serif;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#intro {
+    color:#00242C;
+    padding: 10px 20vw 1px 20vw;
+    text-align: center;
+    font-family: poppins;
+    
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    overflow: hidden;
+    
+  }
+
+  .scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+    
+
+  }
+  
+  .scroll div {
+    display: flex;
+    gap: 2em;
+  }
+
+  .scroll h1 {
+
+    color: #f9f8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    letter-spacing:vw;
+    margin: 5px 10px 20px 10px;
+}
+  
+  .LeftToRight {
+    animation: LeftToRight 7s infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes  LeftToRight {
+    from {
+      transform: translateX(-30%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+
+  footer {
+    color: #222222;
+    background-color: #9a94ff;
+    width: 100vw;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom:10px;
+
+    
+  }
+
+  .logo {
+    border-radius:0;
+    width: 20vh;
+}
+
+.MCF {
+    border-radius:0;
+    width: 5vh;
+}
