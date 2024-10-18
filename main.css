@@ -13,7 +13,7 @@ nav {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 80%;
+    font-size: 1.5vh;
     word-spacing: 3px;
     color: #f9f8f0;
     background-color: #222222;
@@ -28,8 +28,8 @@ body {
     display: block;
     margin: auto;
     padding: 20px;
-    width: 35vw;
-    
+    width: 100vw;
+    height: 80vh;
     object-fit:contain;
     object-position: 50% 40%;
     animation: float 4s ease-in-out infinite;
@@ -51,9 +51,9 @@ body {
     background-color: #9a94ff;
     border-radius:20px 20px 0 0;
     width: 100vw;
+    height: auto;
     padding: 20px 0 20px 0;
     text-align: center;
-    
     
 }
 
@@ -68,7 +68,7 @@ body {
     color:#00242C;
     padding: 10px 20vw 1px 20vw;
     text-align: center;
-    font-family: poppins;
+    font-family: "Poppins", sans-serif;
     
 }
 
