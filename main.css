@@ -27,9 +27,14 @@ body {
     border-radius:0;
     display: block;
     margin: auto;
+    align-content: center;
     padding: 20px;
     width: 100vw;
+<<<<<<< HEAD
     height: 80vh;
+=======
+    height: 40vh;
+>>>>>>> 010a23f (Commit 2)
     object-fit:contain;
     object-position: 50% 40%;
     animation: float 4s ease-in-out infinite;
