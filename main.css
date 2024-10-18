@@ -31,6 +31,7 @@ body {
     width: 100vw;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 80vh;
 =======
     height: 40vh;
@@ -38,6 +39,9 @@ body {
 =======
     height: 80vh;
 >>>>>>> 8db7a45 (big img)
+=======
+    height: 70vh;
+>>>>>>> 626fbe0 (Last)
     object-fit:contain;
     object-position: 50% 40%;
     animation: float 4s ease-in-out infinite;
