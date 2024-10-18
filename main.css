@@ -31,10 +31,14 @@ body {
     padding: 20px;
     width: 100vw;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 80vh;
 =======
     height: 40vh;
 >>>>>>> 010a23f (Commit 2)
+=======
+    height: 80vh;
+>>>>>>> 8db7a45 (big img)
     object-fit:contain;
     object-position: 50% 40%;
     animation: float 4s ease-in-out infinite;
